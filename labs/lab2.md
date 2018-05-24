@@ -164,3 +164,64 @@ $ cd ~/cs170/lab2
 $ ls
 Convert.java  Cylinder.java  HelloWorld.java
 ```
+
+#### DEMO Gedit
+
+#### Assignment
+
+Edit the `Cylinder.java` and write the code to compute the volume and surface area of a cylinder. 
+
+- Edit
+
+```
+gedit Cylinder.java & 
+```
+
+> Make sure you type the & character at the end of the command line !!!
+
+- Check points
+  - Program must `Scanner` (just like in the `Convert.java` program) to read from terminal:
+    - the `radius` of the cylinder
+    - the `height` of the cylinder
+  - Define the variables needed to store the inputs (`radius` and `height`) provided by user
+    - both these parameters can be fractional numbers (i.e. `double` type)
+    - Use meaningful variable names!
+  - Define a variable of type `double` called `pi` and initialize it to `3.14`.
+  - Compute the `volume` and `surface area` of the cylinder and store the results in variables with meaningful names.
+    - Hint:
+    ```
+    Volume = baseArea * height
+
+    Surface = 2 * baseArea + (2 * radius * pi) * height  
+
+    baseArea = radius * radius * pi
+    ```
+  - Using `System.out.println()` to print out the `volume` and the `surface area`.
+
+Make sure you save your file
+
+- Expected steps for running your program.
+  - Open the terminal and go to the directory containing your program
+  - Compile your program by
+  ```
+  $ javac Cylinder.java
+  ```
+    - If the compiler reports some errors, you must fix them using gedit. Save the changes and compile again until there are no errors.
+  - Run the program by
+  ```
+  $ java Cylinder
+  ```
+
+Example: 
+
+```
+$ java Cylinder
+Please enter the radius: 4.5
+Please enter the height: 12.2
+The volume of the cylinder = 775.737
+The surface of the cylinder = 471.942
+```
+
+#### Submission 
+
+Upload the `Cylinder.java` to Canvas, **NOT** `Cylinder.class`!!

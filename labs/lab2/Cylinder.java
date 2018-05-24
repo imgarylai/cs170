@@ -11,12 +11,19 @@ public class Cylinder {
 
     // reading parameters from the input
 
-    System.out.print("Please enter the radius: ");
     // read the radius
+    System.out.print("Please enter the radius: ");
 
-    System.out.print("Please enter the height: ");
     // read the height
+    System.out.print("Please enter the height: ");
+    
+
+    // Hints:
+    // Volume = baseArea *height
+    // Surface = 2 * baseArea + (2 * radius * pi) *height
+    // baseArea = radius * radius * pi
 
     // print out the result
+    // 
   }
 }
