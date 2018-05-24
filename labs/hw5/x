@@ -1,0 +1,7 @@
+    /* ==========================================================
+       Do not change the main method.
+
+       This method will call the "isPalindrome()" method with
+       variable string values ("aruba", "abba", and so on)
+       and print the result
+       ========================================================== */

@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /* This program computes the volume and surface area of a cylinder. */
 
 public class Cylinder {
@@ -7,23 +5,34 @@ public class Cylinder {
 
     // declaration of the variables
 
-    // create a Scanner
+    // Write statement(s) to create a Scanner
 
-    // reading parameters from the input
+    /*
+     * ===================================== 
+     * Reading parameters from the input
+     * =====================================
+     */
 
-    // read the radius
     System.out.print("Please enter the radius: ");
+    // Write statement(s) to read the radius
 
-    // read the height
     System.out.print("Please enter the height: ");
-    
+    // Write statement(s) to read the height
 
-    // Hints:
-    // Volume = baseArea *height
-    // Surface = 2 * baseArea + (2 * radius * pi) *height
-    // baseArea = radius * radius * pi
+    // Write statement(s) to compute volume and surface
 
-    // print out the result
-    // 
+    /*
+     * ===================================== 
+     * Print the results
+     * =====================================
+     */
+
+    System.out.print("The volume of the cylinder = ");
+    // Write statement(s) to print the variable Volume
+
+    System.out.print("The surface of the cylinder = ");
+    // Write statement(s) to print the variable Surface
+
   }
+
 }

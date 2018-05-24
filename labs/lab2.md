@@ -41,8 +41,6 @@ bash-4.1$ cd cs170
 bash-4.1$ ls > dir.txt
 ```
 
-`>` is also called `pipe`. 
-
 #### Print out file content `cat`
 
 - show the content in the `dir.txt`
@@ -159,7 +157,7 @@ photo
 
 ```sh
 $ mkdir ~/cs170/lab2
-$ cp /home/glai2/share/lab2/* ~/cs170/lab2/
+$ cp /home/cs170001/share/lab2/* ~/cs170/lab2/
 $ cd ~/cs170/lab2
 $ ls
 Convert.java  Cylinder.java  HelloWorld.java
@@ -215,6 +213,7 @@ Make sure you save your file
 Example: 
 
 ```
+$ javac Cylinder.java
 $ java Cylinder
 Please enter the radius: 4.5
 Please enter the height: 12.2
