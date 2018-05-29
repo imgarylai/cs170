@@ -16,7 +16,7 @@ $ mkdir ~/cs170/lab3
 $ cp /home/cs170001/share/lab3/*.java ~/cs170/lab3/
 $ cd ~/cs170/lab3
 $ ls
-Extra.java  FtoC.java  package.bluej
+Extra.java  FtoC.java
 ```
 
 ## BlueJ
