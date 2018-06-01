@@ -19,7 +19,7 @@ Please, make sure that you have added the honor code statement at the top of you
 
 ```
 mkdir ~/cs170/lab4
-cp  ~cs170002/share/lab4/*  ~/cs170/lab4
+cp  ~cs170001/share/lab4/*  ~/cs170/lab4
 cd ~/cs170/lab4
 ```
 
