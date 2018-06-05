@@ -41,8 +41,9 @@ public class Triangle1 {
      * ---------------------------------------------------------------
      */
     public static void repeatChar(char c, int n) {
-        for (int j = 0; j < n; j++)
-            System.out.print(c);
+        for (int j = 0; j < n; j++) {
+          System.out.print(c);
+        }
     }
 
     /*
