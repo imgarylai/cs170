@@ -1,44 +1,27 @@
-/* ----------------------------------------------------------------
-   Complete the method "toUpperCase()"
-   ---------------------------------------------------------------- */
-public class UpperCase
-{
-    public static String toUpperCase( String s )
-    {
-       String output;
-       char c;
-       int i;
+// Complete the method "toUpperCase()"
+public class UpperCase {
+  public static String toUpperCase(String s) {
+    // For each character in input string s, do:
+    // {
+    //     if character is a lowercase:
+    //         append the uppercase character to output
+    //     otherise
+    //         append the character to output
+    // }
 
-       output = "";
+    // Don't forget the return the output !!!
+  }
 
-       for ( i = 0; i < s.length(); i++ )
-       {
-	  c = s.charAt(i);
+  //   Method main is our main entry point.
+  public static void main(String args[]) {
+    String in, out;
 
-          if ( 'a' <= c && c <= 'z' )
-	     output += (char) (c - 'a' + 'A'); // Change c to uppercase and add
-	  else
-	     output += c;
-       }
-       
-       return (output);
-    }
+    in = "Hello4";
+    out = toUpperCase(in);
+    System.out.println("Input: " + in + "\tUppercased Output: " + out);
 
-
-
-   /* ------------------------------------------------------
-      Method main is our main entry point.
-      ------------------------------------------------------ */
-   public static void main(String args[])
-   {
-      String in, out;
-
-      in = "Hello4";
-      out = toUpperCase(in);
-      System.out.println("Input: " + in + "\tUppercased Output: " + out);
-
-      in = "7*h$npo";
-      out = toUpperCase(in);
-      System.out.println("Input: " + in + "\tUppercased Output: " + out);
-   }
+    in = "7*h$npo";
+    out = toUpperCase(in);
+    System.out.println("Input: " + in + "\tUppercased Output: " + out);
+  }
 }
