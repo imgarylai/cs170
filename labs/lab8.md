@@ -256,3 +256,25 @@ Upload the `Scoping.java` and '`Fold.java` to Canvas.
 
 #### Homework 6
 
+Checkpoints
+
+- Everything I mentioned in the beginning of the class. 
+
+- `Perfect.java`
+  - Use `sumFactors` to get sum of all its divisors (Do not check if it is a perfect number)
+  - User `isPerfect` to check if `n` is a perfect number (Do not get sum of all its divisors)
+
+- `MaxSubseq.java`
+  - Get correct result by given any string
+  - Correct result format:
+    ```
+    The first (longest possible) "increasing" subsequence = abdhkt
+    The next (longest possible) "increasing" subsequence = cegkx
+    The next (longest possible) "increasing" subsequence = klmw
+    The next (longest possible) "increasing" subsequence = aabhx
+    The final (longest possible) "increasing" subsequence = bbbc
+    ```
+  - Full credits: if use only two loops (`for` or `while`).
+  - Partial credits: if use more than two loops (`for` or `while`)
+  - Extra: if use only ONE loop (`for` or `while`). 
+
