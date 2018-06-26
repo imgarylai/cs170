@@ -13,7 +13,7 @@ Please, make sure that you have added the honor code statement at the top of you
 */
 ```
 
-## Preparation: Create your ~/cs170/lab9/, and copy files
+## Preparation: Create your ~/cs170/lab10/, and copy files
 
 ```sh
 bash
